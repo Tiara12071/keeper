@@ -1,0 +1,31 @@
+{
+  "name": "keeper",
+  "version": "1.0.0",
+  "description": "gestionnaire de tache",
+  "homepage": "https://github.com/Tiara12071/keeper#readme",
+  "bugs": {
+    "url": "https://github.com/Tiara12071/keeper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiara12071/keeper.git"
+  },
+  "license": "ISC",
+  "author": "Tiara",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.1",
+    "node": "^18.20.8",
+    "nodemon": "^3.1.9"
+  }
+}
